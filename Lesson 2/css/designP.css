@@ -1,4 +1,4 @@
-@media (min-width: 10em){
+
 
     body {
         font-size: 1rem;
@@ -76,7 +76,7 @@
         padding-bottom: 10px;
     }
     
-}
+    
 
 @media  (min-width: 33em) {
     header, main, footer {
