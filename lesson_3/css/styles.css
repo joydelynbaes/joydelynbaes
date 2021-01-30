@@ -20,10 +20,11 @@ main {
 header {
  
   background-color:#ffdc15;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));display: grid;
-  grid-template-columns: 110px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  width:100%;
   
 }
 
@@ -32,23 +33,25 @@ color: white;
 text-decoration:none;
 text-align: center;
 font-size: 1.3em;
+margin: 20px;
+padding:60px 30px 60px 30px;
 }
 
 nav ul {
   list-style: none;
   padding:3em;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  display: flex;
+  
 
 }
 
 
 
 nav a:hover {
-  color: black;
-  background-color: #ffffff;
-  padding:1em;
-
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  padding:50px auto;
+ 
 }
 
 
@@ -75,10 +78,8 @@ h2{
 
 p{
   
-  margin-left:2em;
-  padding-bottom: 2em;
+  margin-bottom: 5px;
   font-family: 'Roboto', sans-serif;
-
 }
 /* TYPOGRAPHY */
 
@@ -100,46 +101,69 @@ p{
 
 footer {
   height: 55px;
-  background-color: #ffdc15;
+  background-color:#ffdc15;
   padding: 1em 2em;
+  text-align:center;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
-footer p {
- float:left;
-  display:inline;
-  margin-top:10px;
-}
 
-/* .fb {
-  float:right;
-  margin-right:10px;
-}
+@media only screen and (min-width: 35rem) {
 
-.yt {
- float:right;
-   margin-right:10px;
-}
-
-.tw {
-  float:right;
-   margin-right:10px;
-}
- */
-
-
-@media screen and (max-width: 550px) {
-  .home-grid {
-    display: block;
+  nav{
+    padding:0;
+  }
+  nav ul li a{
+    font-size: .8em;
+    padding:15px 8px 15px 8px;
   }
 
-  .faq {
-    display: block;
-  }
-  .blog-1 {
-    display:block;
+  nav ul{
+
+    padding:0;
   }
   
-  footer {
-    display: block;
+  nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding:15px 8px 15px 8px;
+   
+
   }
+  
 }
+
+/* @media only screen and (min-width: ){
+
+
+  header{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav{
+    padding:0;
+    display:flex;
+    flex-direction: column;
+  }
+  nav ul li a{
+    font-size: .3em;
+    padding:0;
+  }
+
+  nav ul{
+
+    padding:0;
+  }
+  
+  nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding:15px 8px 15px 8px;
+   
+
+  }
+
+} */
+
