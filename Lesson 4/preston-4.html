@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../Lesson 4/css/small.css">
-  <link rel="stylesheet" href="../Lesson 4/css/medium.css"/>
+  <link rel="stylesheet" href="../Lesson 4/css/medium.css">
+  <link rel="stylesheet" href="../Lesson 4/css/large.css"/>
   <link rel="stylesheet" href="../Lesson 4/css/normalize.css"/>
 </head>
 
@@ -19,9 +20,9 @@
   </section>
 </header>
 
-<nav> 
-  <ul class="toggle">
-    <li><a href="#" onclcick="toggleMenu()">&#9776; Menu</a></li>
+<nav class="clearfix"> 
+  <button onclick="toggleMenu()">&#9776;</button>
+  <ul id="menu" class="toggle">
     <li><a href="#"class="active">Home</a></li>
     <li><a href="#">Preston</a></li>
     <li><a href="#">Soda Spring</a></li>
@@ -43,6 +44,6 @@
   <div><span id="date"></span></div>
 </footer>
 <script src="../Lesson 4/js/java.js"></script>
-<script src="../Lesson 4/js/toggleMenu.js"></script>
+<script src="../Lesson 4/js/barMenu.js"></script>
 </body>
 </html> 
