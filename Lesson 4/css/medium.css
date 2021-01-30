@@ -1,0 +1,26 @@
+/* Meduim Viewports */
+@media only screen and (min-width: 37.5em){
+    header img{
+        width:100%;
+    }
+
+    .heading h1{
+        font-size: 3rem;
+    }
+
+    .with{
+        letter-spacing: 1.5pt;
+        font: large;
+        margin-left: 17px;
+    }
+
+    .toggle {
+        display: flex;
+    }
+
+    .toggle li {
+        display:block;
+        flex: 1 1 100%;
+    }
+
+}
