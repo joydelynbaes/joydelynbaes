@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@300&display=swap');
 body {
-  background-color: #4ca1af;
+  background-color: #ffffff;
   font-family: 'Noto Sans JP', sans-serif;
   margin:auto;
   line-height: 1em;
@@ -10,7 +10,7 @@ body {
 
 
 main {
-  background-color: #c3dfe5;
+  background-color: #ffffff;
  padding-left: 3em;
  padding-right: 3em;
  
@@ -19,7 +19,7 @@ main {
 /* headers ------------------------------------------------------*/
 header {
  
-  background-image: linear-gradient(to right, #4ca1af, #494949);
+  background-color:#ffdc15;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));display: grid;
   grid-template-columns: 110px auto;
@@ -46,7 +46,7 @@ nav ul {
 
 nav a:hover {
   color: black;
-  background-color: #c3dfe5;
+  background-color: #ffffff;
   padding:1em;
 
 }
@@ -100,7 +100,7 @@ p{
 
 footer {
   height: 55px;
-  background-image: linear-gradient(to right, #4ca1af, #494949);
+  background-color: #ffdc15;
   padding: 1em 2em;
 }
 
@@ -110,7 +110,7 @@ footer p {
   margin-top:10px;
 }
 
-.fb {
+/* .fb {
   float:right;
   margin-right:10px;
 }
@@ -124,7 +124,7 @@ footer p {
   float:right;
    margin-right:10px;
 }
-
+ */
 
 
 @media screen and (max-width: 550px) {
