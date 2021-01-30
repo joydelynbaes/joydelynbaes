@@ -1,19 +1,9 @@
 
-@media only screen and (min-width: 768px){
-    header img{
-        width:100px;
-    }
+@media only screen and (min-width: 35rem) {
 
-    .heading h1{
-        font-size: 3rem;
+    nav button{
+        display:none;
     }
-
-    .with{
-        letter-spacing: 1.5pt;
-        font: large;
-        margin-left: 17px;
-    }
-
     nav ul{
         text-align: center;
         color:white;
@@ -30,15 +20,8 @@
     margin-left: 50px;
     }
 
-    nav ul li:first-child{
-        display:none;
-        padding:0.5em;
-        margin: 0 auto;
-
-    }
-
     nav ul.hide {
-        display:none;
+        display:block;
     }
 
     .clearfix:after {
@@ -46,3 +29,4 @@
         display: table;
         clear: both;
     }
+}
