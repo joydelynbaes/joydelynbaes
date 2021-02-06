@@ -60,14 +60,12 @@ font-size: 1em;
 }
 
 .stats {
-position: absolute;
-top:25px;
+
 left:30px;
 background: #ffdc12;
 border: 1px solid #3c3f3f;
 padding: 15px 10px;
 box-shadow: 0 0 30px #3c3f3f;
-opacity: .7;
 color:#000000;
 }
 

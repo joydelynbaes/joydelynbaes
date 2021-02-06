@@ -33,6 +33,13 @@
         width:100%;
         
     }
+
+    .stats {
+    position: absolute;
+    top:25px;
+    opacity: .7;
+    }
+
     .clearfix:after {
         content: "";
         display: table;
