@@ -59,16 +59,21 @@ font-size: 1em;
 
 }
 
-.stats {
 
+.stats {
+text-align: center;
 left:30px;
-background: #ffdc12;
+background: #ffdc15;
 border: 1px solid #3c3f3f;
 padding: 15px 10px;
 box-shadow: 0 0 30px #3c3f3f;
 color:#000000;
 }
 
+.fiveDay{
+display: none;
+
+}
 .contentbox {
     display:block;
     margin:.5em auto;
@@ -105,7 +110,7 @@ nav button{
    border:none;
    font-size: 30px;
    background-color: transparent;
-   color: #ffdc15;
+   color: #fdc15f;
 }
 
 nav ul.hide {
@@ -123,6 +128,7 @@ nav ul li a:hover{
     text-align: center;
     color:#000;
 }
+
 
 .active{
     padding:0;

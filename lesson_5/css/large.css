@@ -9,5 +9,40 @@
     margin-left: 290px;
  }
 
+ p{
+    margin: 0;
+    font-size: 1.5rem;
+    
+}
+h2{
+    margin: 0;
+    font-size: 2em;
+}
+
+.stats {
+
+    margin-top:50px;
+    font-weight: bolder;
+    
+    }
+    .fiveDay{
+        margin-bottom:20%;
+        text-align: center;
+        display:block;
+    }
+    .fiveDay li{
+        text-decoration: none;
+        float:left;
+        display:block;
+        padding:1px; 
+        list-style: none;
+        text-align: center;
+        margin-left:50px;
+    }
+    .fiveDay img{
+    float:left;
+    
+    }
+    
 
 }

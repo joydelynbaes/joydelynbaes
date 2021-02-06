@@ -34,10 +34,28 @@
         
     }
 
+    p{
+        margin: 0;
+        font-size: 1rem;
+        
+    }
+    h2{
+        margin: 0;
+        font-size: 1.5em;
+
+        
+    }
+
     .stats {
     position: absolute;
     top:25px;
-    opacity: .7;
+    background: rgba(255, 252, 72, 0.7);
+    font-weight: bolder;
+    }
+
+    .sum{
+        color:rgb(75, 88, 0);
+        font-weight: bold;
     }
 
     .clearfix:after {
@@ -45,4 +63,32 @@
         display: table;
         clear: both;
     }
+
+    .fiveDay{
+        margin-bottom:10%;
+        text-align: center;
+        display:block;
+    }
+    .fiveDay li{
+        text-decoration: none;
+        float:left;
+        display:block;
+        padding:1px; 
+        list-style: none;
+        text-align: center;
+        margin-left:50px;
+    }
+    
+    .fiveDay img{
+    float:left;
+    width: 50px;
+    margin-top:10px;
+    
+    }
+
+    .article h2{
+        text-align: center;
+        display: block;
+    }
+
 }
