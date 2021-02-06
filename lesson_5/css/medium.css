@@ -90,5 +90,11 @@
         text-align: center;
         display: block;
     }
+    .artImg{
+        float:right;
+        width:200px;
+        
+        }
+    }
 
 }

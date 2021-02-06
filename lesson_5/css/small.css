@@ -41,7 +41,7 @@ header{
 main{
     margin: 0 5px 0 5px;
 }
-.mainImg {
+.mainImg, .artImg {
     width:100%;
 }
 
