@@ -15,6 +15,11 @@
     margin-left: 50px;
     }
 
+    nav ul li a:hover{
+    color:#000;
+    background-color: #ffdc15;
+}
+
     .active{
     padding: .8rem 1rem;
     margin-left: 50px;
@@ -24,6 +29,10 @@
         display:block;
     }
 
+    .mainImg {
+        width:100%;
+        
+    }
     .clearfix:after {
         content: "";
         display: table;

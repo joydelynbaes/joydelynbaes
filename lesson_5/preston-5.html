@@ -4,27 +4,26 @@
   <title>Weathering Site | Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../Lesson_4/css/small.css">
-  <link rel="stylesheet" href="../Lesson_4/css/medium.css">
-  <link rel="stylesheet" href="../Lesson_4/css/large.css"/>
-  <link rel="stylesheet" href="../Lesson_4/css/normalize.css"/>
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="../lesson_5/css/small.css">
+  <link rel="stylesheet" href="../lesson_5/css/medium.css">
+  <link rel="stylesheet" href="../lesson_5/css/large.css"/>
+  <link rel="stylesheet" href="../lesson_5/css/normalize.css"/>
+  <link rel="shortcut icon" href="../lesson_5/img/favicon.ico">
 </head>
 
 <body>
 <header>
-  
-  <img src="../Lesson_4/img/icon.png" alt="icon">
+  <img src="../Lesson_5/img/icon.png" alt="icon">
   <section class="heading">
-    <h1>Weathering</h1>
-    <div class="with">Wethering WIth You</div>
+    <h1>Weathering Daily</h1>
+    <div class="with">for everydays weather update</div>
   </section>
 </header>
 
 <nav class="clearfix"> 
   <button onclick="toggleMenu()">&#9776;</button>
   <ul id="menu" class="hide">
-    <li><a href="Lesson_4/preston-4.html" class="active">Home</a></li>
+    <li><a href="Lesson_5/preston-5.html" class="active">Home</a></li>
     <li><a href="#">Preston</a></li>
     <li><a href="#">Soda Spring</a></li>
     <li><a href="#">Fish Haven</a></li>
@@ -34,6 +33,18 @@
 
 <main>
   <h2 class="pre">Preston, Idaho</h2>
+  <div class="summary">
+    <img class="mainImg" src="../lesson_5/img/pexels-jenny-uhling-4321286.jpg" alt="Photo by Jenny Uhling from Pexels">
+    <section class="stats">
+      <h2>Weather Summary</h2>
+      <p>Currently:<span id="current"> Sunny</span></p>
+      <p>High:<span id="high">76 F</span></p>
+      <p>Wind Chill:<span id="chill">F</span></p>
+      <p>Humidity:<span id="humid">69%</span></p>
+      <p>Wind Speed:<span id="speed">5 mph</span></p>
+    </section>
+  </div>
+
   <div class="contentbox">Hero with weather summary</div>
   <div class="contentbox">5 Day forecast</div>
   <div class="contentbox">Article</div>
@@ -44,8 +55,8 @@
   <div class="foot"> &copy; 2021 | Joydelyn R. Baes | Philippines | <a href="https://www.byui.edu/online">BYUI Online Learning</a></div>
   <div><span id="date"></span></div>
 </footer>
-<script src="/Lesson_4/js/toggleMenu.js"></script>
-<script src="/Lesson_4/js/java.js"></script>
+<script src="../lesson_5/js/toggleMenu.js"></script>
+<script src="../lesson_5/js/java.js"></script>
 
 </body>
 </html> 

@@ -26,22 +26,49 @@ header{
 }
 
 .heading h1 {
-    font-size: 1.6rem;
-    margin: 0 0 0 17px;
+    font-size: 1.3rem;
+    margin-bottom: 0;
 }
 
 .with {
     font-style:italic;
     letter-spacing: 1pt;
-    color: rgb(110, 109, 0);
-    margin-left: 20px;
-    font-size: .9rem;
+    color: #6e6d00;
+    margin: 0 10px;
+    font-size: .8rem;
 }
-
-
 
 main{
     margin: 0 5px 0 5px;
+}
+.mainImg {
+    width:100%;
+}
+
+.summary{
+    margin: 10px auto; 
+    position:relative;
+}
+.pre{
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+h2, p{
+margin: 0;
+font-size: 1em;
+
+}
+
+.stats {
+position: absolute;
+top:25px;
+left:30px;
+background: #ffdc12;
+border: 1px solid #3c3f3f;
+padding: 15px 10px;
+box-shadow: 0 0 30px #3c3f3f;
+opacity: .7;
+color:#000000;
 }
 
 .contentbox {
