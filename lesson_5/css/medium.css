@@ -1,0 +1,32 @@
+
+@media only screen and (min-width: 35rem) {
+
+    nav button{
+        display:none;
+    }
+    nav ul{
+        text-align: center;
+        color:white;
+    }
+
+    nav ul li a{
+    float:left;
+    padding: .8rem 1rem;
+    margin-left: 50px;
+    }
+
+    .active{
+    padding: .8rem 1rem;
+    margin-left: 50px;
+    }
+
+    nav ul.hide {
+        display:block;
+    }
+
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
