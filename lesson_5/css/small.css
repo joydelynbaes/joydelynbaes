@@ -137,6 +137,16 @@ nav ul li a:hover{
     
 
 }
+
+.clearfix p{
+    display: grid;
+    grid-template-rows: text image;
+
+}
+
+.artImg{
+    grid-row:image;
+}
 footer {
     height: 55px;
     background-color:#ffdc15;

@@ -1,5 +1,5 @@
 function toggleMenu() {
-    document.getElementsById("menu").classList.toggle("hide");
+    document.getElementById("menu").classList.toggle("hide");
 }
 
 
