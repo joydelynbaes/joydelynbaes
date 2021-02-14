@@ -47,5 +47,19 @@ h2{
         width:100%;
     }
     
-
+    footer {
+        height: 55px;
+        background-color:#ffdc15;
+        padding: 1em 2em;
+        text-align:center;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-top: 300px;
+    
+      }
+      .socialMedia{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width:15%;
+      }
+      
 }
