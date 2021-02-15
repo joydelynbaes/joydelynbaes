@@ -3,7 +3,7 @@ function doInputOutput(){
     let speed = parseFloat(document.getElementById("wind").value);
 
     let result = windChill(temp, speed);
-    document.getElementById("outPut").innerHTML = result;
+    document.getElementById("chillOutput").innerHTML = result;
 } 
 function windChill(temp, speed){
     let t = temp;
