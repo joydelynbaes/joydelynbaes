@@ -12,6 +12,7 @@ if("intersectionObserver" in window){
         items.forEach ((item) => {
             if (item.isIntersecting){
                 loadImages(item.target);
+                observer.unobserver(item.target);
             }
         });
     });
