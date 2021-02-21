@@ -22,6 +22,7 @@
 
     .active{
     padding: .8rem 1rem;
+    margin-left: 50px;
     }
 
     nav ul.hide {
@@ -43,6 +44,14 @@
         font-size: 1.5em;
 
         
+    }
+    
+    .container{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .container figure{
+        margin:10px;
     }
 
     .stats {

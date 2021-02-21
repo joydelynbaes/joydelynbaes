@@ -10,6 +10,7 @@ body{
 
     img{
         width:100%;
+        border-radius: 10px;
     }
     
     .logo {
@@ -91,6 +92,7 @@ body{
     .pre{
         text-align: center;
         color:#000;
+        margin:20px;
     }
     
     .clearfix p{
@@ -98,7 +100,44 @@ body{
         grid-template-rows: text image;
     
     }
+    
+    .container figure{
+        /* grid-template-columns: 1fr; */
+        margin:10px;
 
+    }
+    figcaption{
+        text-align: center;
+        padding:10px;
+       background-color: transparent;
+    }
+
+    figure{
+        box-shadow: 0 0 10px black;
+        margin:0 auto;
+        display:grid;
+         border-radius: 10px;
+         background-color: transparent;
+        }
+    }
+
+    figure:hover{
+        box-shadow: 0 0 50px yellow;
+    }
+
+    img{
+        align-items: center;
+        display:block;
+        margin:0 auto;
+         
+    }
+    img[data-src]{
+        filter: blur(0.2em);
+    }
+    img{
+        filter:blur(0em);
+        transition: filter 5s;
+    }
     footer {
         height: 55px;
         background-color:#ffdc15;

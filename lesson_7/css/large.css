@@ -1,9 +1,9 @@
 @media only screen and (min-width: 64rem) {
 
- nav ul li a{
+ /* nav ul li a{
     
      margin-left: 90px;
- }
+ } */
 .active{
     margin-left:90px;
 }
@@ -21,47 +21,31 @@ h2{
     font-size: 2em;
 }
 
-.stats {
+main{
+    display: flex;
+}
+.container{
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
-    margin-top:50px;
-    font-weight: bolder;
+{
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
     
+footer {
+    height: 55px;
+    background-color:#ffdc15;
+    padding: 1em 2em;
+    text-align:center;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 300px;
+
     }
-    .fiveDay{
-        margin-bottom:20%;
-        text-align: center;
-        display:block;
+.socialMedia{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width:15%;
     }
-    .fiveDay li{
-        text-decoration: none;
-        float:left;
-        display:block;
-        padding:1px; 
-        list-style: none;
-        text-align: center;
-        margin-left:50px;
-    }
-    .fiveDay img{
-    float:left;
-    
-    }
-    img{
-        width:100%;
-    }
-    
-    footer {
-        height: 55px;
-        background-color:#ffdc15;
-        padding: 1em 2em;
-        text-align:center;
-        font-family: 'Noto Sans JP', sans-serif;
-        margin-top: 300px;
-    
-      }
-      .socialMedia{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        width:15%;
-      }
       
 }
