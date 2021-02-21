@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@300&display=swap');
+
+body{
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color:Black;
+    }
+
+    img{
+        width:100%;
+    }
+    
+    .logo {
+        width:140px;
+    
+    }
+    header{
+        background-color:#ffdc15;
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .heading{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .heading h1 {
+        font-size: 1.3rem;
+        margin-bottom: 0;
+    }
+    
+    .with {
+        font-style:italic;
+        letter-spacing: 1pt;
+        color: #6e6d00;
+        margin: 0 10px;
+        font-size: .8rem;
+    }
+    nav{
+        background-color: #3c3f3f;
+        margin:0;
+        max-width: 100%;
+    }
+    
+    
+    nav ul{ 
+        list-style: none;
+        text-align: center;
+        margin:0 0 0 auto ;
+        padding:0;
+    
+    }
+    
+    nav ul li a{
+        color:white;
+        display:block;
+        text-decoration: none;
+        padding:1px; 
+        list-style: none;
+        
+    }
+    
+    nav button{
+       border:none;
+       font-size: 30px;
+       background-color: transparent;
+       color: #fdc15f;
+    }
+    
+    nav ul.hide {
+        display:none;
+    }
+    
+    nav ul li a:hover{
+        color:#000;
+        background-color: #ffdc15;
+    
+    }
+    .active{
+        padding:0;
+        margin:0;
+        background-color:#ffdc15;
+        
+    
+    }
+    .pre{
+        text-align: center;
+        color:#000;
+    }
+    
+    .clearfix p{
+        display: grid;
+        grid-template-rows: text image;
+    
+    }
+
+    footer {
+        height: 55px;
+        background-color:#ffdc15;
+        padding: 1em;
+        text-align:center;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-top: 20px;
+    
+      }
+    
+    
