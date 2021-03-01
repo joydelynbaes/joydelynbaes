@@ -1,18 +1,36 @@
 body{
     font-family: 'Ubuntu', sans-serif;
     color: black;
+    max-width:23%;
+    margin:0 auto;
+    box-shadow: 0 0 10px black;
 }
 h2{
     background-color: #7fb9c2;
+    margin:0;
+    text-align: center;
+    padding: 10px 0;
 
 }
 th{
     background-color: #628ca6 ;
     color:#e7ffed;
+    margin:0 auto;
+    
+    
 }
-table{
-    width:40%;
+
+th:nth-child(2){
+    padding:.7em;
+    margin:0 20px 0 20px;
 }
-#black{
-    margin-left:50px;
+td{
+    margin: 0 10px;
+    padding: 10px 20px;
 }
+footer{
+    background-color: #7fb9c2;
+    text-align: center;
+    padding: 10px 0;
+}
+
