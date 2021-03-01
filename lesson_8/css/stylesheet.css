@@ -4,6 +4,7 @@ body{
     max-width:23%;
     margin:0 auto;
     box-shadow: 0 0 10px black;
+    
 }
 h2{
     background-color: #7fb9c2;
@@ -15,11 +16,18 @@ h2{
 th{
     background-color: #628ca6 ;
     color:#e7ffed;
-    margin:0 auto;
-    
-    
+    margin:0 auto;  
 }
-
+.tableBuild{
+    background-color: #628ca6;
+}
+.hLight{
+    background-color:#7fb9c2 ;
+}
+tr{
+    text-align: center;
+    background-color: rgb(245, 243, 243);
+}
 th:nth-child(2){
     padding:.7em;
     margin:0 20px 0 20px;
