@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+h3{
+    margin-top: 30px;
+    margin-bottom:5px ;
+}
+main{
+    align-content: center;
+}
+.large{
+    width:80%;
+    display: block;
+    
+}
+.medium{
+    width:50%;
+    display: block;
+}
+.small{
+    width:30%;
+}
+.social{
+    width:15% ;
+    float: left;
+  margin-left: 40px;
+  display: flex;
+}
+.soc{
+    margin-left:5px;
+}
+.contacts{
+    padding-left: 50px;
+    
+}
