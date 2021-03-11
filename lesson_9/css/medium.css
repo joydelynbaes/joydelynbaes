@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 48rem) {
 
     nav button{
         display:none;
@@ -12,13 +12,13 @@
     nav ul li a{
     float:left;
     padding: .8rem 1rem;
-    margin-left: 50px;
+    margin-left: 10px;
     }
 
     nav ul li a:hover{
     color:#000;
     background-color: #ffdc15;
-}
+    }
 
     .active{
     padding: .8rem 1rem;
@@ -91,12 +91,27 @@
         width: 30%;
         
     }
-        }
-        img{
+        
+    img{
         width:100%;
     }
-  
-  @media only screen and (min-width: 600px) {
+    
+    .cards{
+        
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap: .5em;
+    }
+    div .cards{
+        
+        line-height: 1.5em;
+        
+    }
+    .cards img{
+        width: 90%;
+        height: 40%;
+       margin:20px 0 20px 0;
+    }
     section{
       grid-template-rows: auto;
       grid-template-columns: auto auto;
@@ -128,7 +143,7 @@
       }
       
           
-      }
+      
       
     
-  } 
+} 

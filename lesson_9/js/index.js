@@ -10,8 +10,8 @@ fetch(requestURL)
     for (let i = 0; i < towns.length; i++) {
       if ((i == 1) || (i == 5) || (i == 6)) {
         let card = document.createElement('section');
-        let city = document.createElement('h1');
-        let motto = document.createElement('h2');
+        let city = document.createElement('h2');
+        let motto = document.createElement('h3');
         let year = document.createElement('p');
         let population = document.createElement('p');
         let rain = document.createElement('p');

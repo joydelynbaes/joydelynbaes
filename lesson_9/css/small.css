@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@300&display=swap');
-
+@media only screen and (min-width: 20rem) {
 body{
 background-color: #ffffff;
 padding: 0;
@@ -158,7 +158,42 @@ nav ul li a:hover{
     padding: 2%;
   }
   
-  
+  .cards section{
+    
+    border: 1px solid #000000;
+    background-color: #ffe44b;
+    padding: 3em 1em;
+    margin: 1em auto;
+
+    
+}
+
+   div.cards{
+    background-color: #ffdc15;
+    margin: 5px;
+    padding: 10px;  
+    color: rgb(0, 0, 0); 
+    line-height: 1em;
+    padding: 1em;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
+.cards img{
+    margin-top:10px;
+    max-width: 100%;
+}
+
+.cards h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+    
+}
   
   .map{
     margin: auto;
@@ -186,8 +221,8 @@ footer {
     padding: 1em;
     text-align:center;
     font-family: 'Noto Sans JP', sans-serif;
-    margin-top: 20px;
-
+    
   }
 
  
+}
