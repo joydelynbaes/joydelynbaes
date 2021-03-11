@@ -42,7 +42,7 @@
     h2{
         margin: 0;
         font-size: 1.5em;
-
+        
         
     }
 
@@ -96,26 +96,29 @@
         width:100%;
     }
     
-    .cards{
+    
+    .cards section{
         
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        gap: .5em;
+        display: flex;
+	    flex-direction: row;
+        
+    }
+    .cards section:nth-child(odd) {
+        flex-direction: row-reverse;
     }
     div .cards{
-        
         line-height: 1.5em;
         
     }
     .cards img{
-        width: 90%;
-        height: 40%;
+        width: 50%;
+        height: 20%;
        margin:20px 0 20px 0;
     }
-    section{
-      grid-template-rows: auto;
-      grid-template-columns: auto auto;
+    .cards h3 {
+        float: right;
     }
+   
     .map{
       width: 50%;
       float:left;

@@ -181,6 +181,9 @@ nav ul li a:hover{
     border: 1px solid rgb(255, 255, 255);
     
 }
+.cards section{
+    display: grid;
+}
 
 .cards img{
     margin-top:10px;

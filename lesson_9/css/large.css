@@ -6,7 +6,7 @@
  }
 
  .active{
-    margin-left: 270px;
+    margin-left: 70px;
  }
 
  p{
@@ -76,7 +76,10 @@ h2{
         line-height: 2rem;
         
     }
-
+    .cards section{
+        display: grid;
+       
+    }
     
       
 }
