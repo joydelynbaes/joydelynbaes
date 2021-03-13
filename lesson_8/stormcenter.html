@@ -36,14 +36,14 @@
 <main class="clearfix">
   <h2 class="pre">Preston, Idaho</h2>
 
-  <form method="get" action="hanks.html">
+  <form method="get" action="thanks.html">
   <fieldset>
     <legend>Information</legend>
     <label>First Name: <input type="text" name="firstName" pattern="[A-Za-z]{5,}" required></label>
-    <label>Last Name: <input type="text" name="lastName" pattern="[A-Za-z]{5,}" required></label>
+    <label>Last Name: <input type="text" name="lastName" pattern="[A-Za-z]{4,}" required></label>
     <label>Email*: <input type="email" name="eMail" placeholder="name@mail.com" required></label>
-    <label>Contacts: <input type="tel" name="contact" required></label>
-    <label>Zip Code: <input type="text" name="zip" required></label>
+    <label>Phone: <input type="tel" name="phone" required></label>
+    <label>Zip Code: <input type="number" name="zip" required></label>
     <label>Storm Date: <input type="date" name="stormDate"></label>
     <label>Storm Type: <select list="datalist" name="stormType">
     <datalist>
@@ -87,7 +87,7 @@
     <label><input type="textarea" name="comments" rows="4" cols="40"></label>
   </fieldset>
 
-  <input type="submit" value="report" class="submit">
+  <input type="submit" value="Submit Form" class="submit">
   </form>
 </main>
 
