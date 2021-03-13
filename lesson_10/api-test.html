@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>Weathering Site | Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../lesson_9/css/small.css">
+  <link rel="stylesheet" href="../lesson_9/css/medium.css">
+  <link rel="stylesheet" href="../lesson_9/css/large.css"/>
+  <link rel="stylesheet" href="../lesson_9/css/normalize.css"/>
+  <link rel="shortcut icon" href="../lesson_9/img/favicon.ico">
+  <script src="../lesson_9/js/index.js"></script>
+  <script src="../lesson_10/js/weatherapi.js"></script>
+</head>
+
+<body>
+<header>
+  <img class="logo" src="../lesson_6/img/icon.png" alt="icon">
+  <section class="heading">
+    <h1>Weathering Daily</h1>
+    <div class="with">for everydays weather update</div>
+  </section>
+</header>
+
+<nav class="clearfix"> 
+  <button onclick="toggleMenu()">&#9776;</button>
+  <ul id="menu" class="hide">
+    <li><a href="../lesson_9/index.html" class="active">Home</a></li>
+    <li><a href="../lesson_6/preston-6.html">Preston</a></li>
+    <li><a href="../lesson_8/stormcenter.html">Storm Center</a></li>
+    <li><a href="#">Fish Haven</a></li>
+    <li><a href="../lesson_7/gallery-7.html">Gallery</a></li>
+    <li><a href="../lesson_9/home-wireframes.html">Wireframe</a></li>
+    
+  </ul>
+</nav>
+
+<main>
+    <h1>OpenWeatherMap.org API Test</h1>
+    <p>The current temperature in Preston, Idaho is <span id="current-temp"></span>&deg; F</p>
+    <hr>
+    <p>Image Icon Path Test: <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></p>
+</main>
+
+<footer>
+  <div class="foot"> &copy; 2021 | Joydelyn R. Baes | Philippines | <a href="https://www.byui.edu/online">BYUI Online Learning</a></div>
+  <div>Last updated:<span id="date"></span></div>
+</footer>
+<script src="../lesson_6/js/toggleMenu.js"></script>
+<script src="../lesson_6/js/java.js"></script>
+
+
+
+</body>
+</html> 
