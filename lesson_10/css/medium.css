@@ -40,7 +40,7 @@
         
     }
     h2{
-        margin: 0;
+        margin: 15px;
         font-size: 1.5em;
         
         
@@ -69,16 +69,8 @@
     }
 
     .fiveDay{
-        margin-bottom:10%;
         text-align: center;
         display:block;
-    }
-    
-    .fiveDay img{
-    float:left;
-    width: 100%;
-    margin-top:10px;
-    
     }
 
     .article h2{
@@ -120,15 +112,22 @@
     }
    
     .map{
-      width: 50%;
+      width: 40%;
       float:left;
       border-radius: 5px;
       margin-left: 20px;
     }
-    .contacts, .contacts p{
+    .contacts h2, .contacts p {
       margin-top: 0;
-      
-      
+      display: block;
+      margin-left:400px;
+    }
+
+    .weather{
+        text-align: center;
+        background-color: #ffdc15;
+        margin: auto;
+        width: 700px;
     }
     footer {
         height: 55px;
@@ -143,6 +142,8 @@
         display: grid;
         grid-template-columns: auto auto auto;
         width:20%;
+        margin-left:400px;
+        margin-top: 10px;
       }
       
           

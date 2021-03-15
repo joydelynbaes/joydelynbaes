@@ -4,17 +4,18 @@
   <title>Weathering Site | Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../lesson_6/css/small.css">
-  <link rel="stylesheet" href="../lesson_6/css/medium.css">
-  <link rel="stylesheet" href="../lesson_6/css/large.css"/>
-  <link rel="stylesheet" href="../lesson_6/css/normalize.css"/>
-  <link rel="shortcut icon" href="../lesson_6/img/favicon.ico">
+  <link rel="stylesheet" href="../lesson_10/css/small.css">
+  <link rel="stylesheet" href="../lesson_10/css/medium.css">
+  <link rel="stylesheet" href="../lesson_10/css/large.css"/>
+  <link rel="stylesheet" href="../lesson_10/css/normalize.css"/>
+  <link rel="shortcut icon" href="../lesson_10/img/favicon.ico">
   <script src="../lesson_10/js/prestonweatherapi.js"></script>
+  <script src="../lesson_10/js/preston-forecast.js"></script>
 </head>
 
 <body>
 <header>
-  <img class="logo" src="../lesson_6/img/icon.png" alt="icon">
+  <img class="logo" src="../lesson_10/img/icon.png" alt="icon">
   <section class="heading">
     <h1>Weathering Daily</h1>
     <div class="with">for everydays weather update</div>
@@ -44,7 +45,7 @@
 <img src="../lesson_6/img/wdd230_image_franklinOriginal.jpeg" alt="icon">
       
     </picture>
-<section class="stats">
+<section class="stats" >
       <h2>Weather Summary</h2>
       <p>Weather: <span id="weather"></span></p>
       <p>Tempreture: <span id="temperature"></span> &#176;F </p>
@@ -54,10 +55,25 @@
     </section>
   </div>
 
-  <div class="fiveDay">
+  <div class="fiveDay" >
     <h2>5 Day forecast</h2>
-    
-      <img src="../lesson_10/img/5days.jpg" alt="forecast">
+        <table class="weather" border="1">
+          <tr>
+            <th><p><span id="dayofWeek1"></span>:<span id="forecast1"></span>&deg; F</p></th>
+            <th><p><span id="dayofWeek2"></span>:<span id="forecast2"></span>&deg; F</p></th>
+            <th><p><span id="dayofWeek3"></span>:<span id="forecast3"></span>&deg; F</p></th>
+            <th><p><span id="dayofWeek4"></span>:<span id="forecast4"></span>&deg; F</p></th>
+            <th><p><span id="dayofWeek5"></span>:<span id="forecast5"></span>&deg; F</p></th>
+           
+            </tr>
+         <tr>
+            <td><p><span id="image1"></span>&nbsp;<img src="" alt="" id="icon1"></p></td>
+            <td><p><span id="image2"></span>&nbsp;<img src="" alt="" id="icon2"></p></td>
+            <td><p><span id="image3"></span>&nbsp;<img src="" alt="" id="icon3"></p></td>
+            <td><p><span id="image4"></span>&nbsp;<img src="" alt="" id="icon4"></p></td>
+            <td><p><span id="image5"></span>&nbsp;<img src="" alt="" id="icon5"></p></td>
+          </tr>
+        </table>
       
      
       
