@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>Weathering Site | Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../lesson_10/css/small.css">
+  <link rel="stylesheet" href="../lesson_10/css/medium.css">
+  <link rel="stylesheet" href="../lesson_10/css/large.css"/>
+  <link rel="stylesheet" href="../lesson_10/css/normalize.css"/>
+  <link rel="shortcut icon" href="../lesson_10/img/favicon.ico">
+  <script src="../lesson_10/js/prestonweatherapi.js"></script>
+  <script src="../lesson_10/js/preston-forecast.js"></script>
+</head>
+
+<body>
+<header>
+  <img class="logo" src="../lesson_10/img/icon.png" alt="icon">
+  <section class="heading">
+    <h1>Weathering Daily</h1>
+    <div class="with">for everydays weather update</div>
+  </section>
+</header>
+
+<nav class="clearfix"> 
+  <button onclick="toggleMenu()">&#9776;</button>
+  <ul id="menu" class="hide">
+    <li><a href="../lesson_11/index.html" >Home</a></li>
+    <li><a href="../lesson_11/preston.html" class="active">Preston</a></li>
+    <li><a href="../lesson_11/stormcenter.html">Storm Center</a></li>
+    <li><a href="#">Fish Haven</a></li>
+    <li><a href="../lesson_11/gallery.html">Gallery</a></li>
+    <li><a href="../lesson_11/home-wireframes.html">Wireframe</a></li>
+    
+  </ul>
+</nav>
+
+<main>
+  <h2 class="pre">Preston, Idaho</h2>
+  <div class="summary">
+   <picture>
+    <source srcset="../lesson_6/img/small.jpg" media="(max-width:200px)">
+    <source srcset="../lesson_6/img/medium.jpg" media="(max-width:500px)">
+    <source srcset="../lesson_6/img/large.jpg" media="(max-width:800px)">
+<img src="../lesson_6/img/wdd230_image_franklinOriginal.jpeg" alt="icon">
+      
+    </picture>
+<section class="stats" >
+      <h2>Weather Summary</h2>
+      <p>Weather: <span id="weather"></span></p>
+      <p>Tempreture: <span id="temperature"></span> &#176;F </p>
+      <p>Wind Chill: <span id="chillOutput"></span></p>
+      <p>Humidity: <span id="humidity"></span></p>
+      <p>Wind Speed:<span id="speed"></span>mph</p>
+    </section>
+  </div>
+
+  <div class="fiveDay" >
+    <h2>5 Day forecast</h2>
+        <table class="weather" border="1">
+          <tr>
+            <th><p><span id="dayofWeek1"></span>:<span id="forecast1"></span>&deg; F</p></th>
+            <th><p><span id="dayofWeek2"></span>:<span id="forecast2"></span>&deg; F</p></th>
+            <th><p><span id="dayofWeek3"></span>:<span id="forecast3"></span>&deg; F</p></th>
+            <th><p><span id="dayofWeek4"></span>:<span id="forecast4"></span>&deg; F</p></th>
+            <th><p><span id="dayofWeek5"></span>:<span id="forecast5"></span>&deg; F</p></th>
+           
+            </tr>
+         <tr>
+            <td><p><span id="image1"></span>&nbsp;<img src="" alt="" id="icon1"></p></td>
+            <td><p><span id="image2"></span>&nbsp;<img src="" alt="" id="icon2"></p></td>
+            <td><p><span id="image3"></span>&nbsp;<img src="" alt="" id="icon3"></p></td>
+            <td><p><span id="image4"></span>&nbsp;<img src="" alt="" id="icon4"></p></td>
+            <td><p><span id="image5"></span>&nbsp;<img src="" alt="" id="icon5"></p></td>
+          </tr>
+        </table>
+      
+     
+      
+  
+  </div>
+
+  <div class="clearfix">
+    <h2>Article</h2>
+    
+    <p><img class="artImg" src="../lesson_6/img/pexels-tobias-bjørkli-1693095 - Copy.jpg" alt="Photo by Tobias bjorkli from Pexels">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt quidem, 
+    porro qui architecto minima expedita fugiat deserunt ducimus sint repudiandae quaerat, fugit distinctio at. Distinctio, mollitia. Fugit velit officiis ex! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident magnam 
+    doloribus cum, nemo architecto maxime assumenda blanditiis, praesentium accusantium a exercitationem sit fuga voluptas accusamus ducimus delectus eligendi reprehenderit perspiciatis?</p>
+    
+  </div>
+  <div class="contactInfo">
+    <div><img class="map" src="../lesson_6/img/pexels-binyamin-mellish-108942.jpg" alt="Photo by Binyamin mellish from Pexels"></div>
+    <div class="contacts">
+      <h2>Contact Information</h2>
+      <p>123 456 789</p>
+      <p>waether@preston.com</p>
+      <p>19 Map Street, Country State</p>
+    </div>
+
+    <div class="socialMedia">
+      <div class="soc"><a href="https://www.facebook.com" target="_blank"> </a><img src="../lesson_6/img/fb.png" alt="facebook"></div>
+      <div class="soc"><a href="https://www.youtube.com" target="_blank"></a><img src="../lesson_6/img/yt.png" alt="youtube"></div>
+      <div class="soc"><a href="https://www.twitter.com" target="_blank"></a><img src="../lesson_6/img/tw.png" alt="twitter"></div>
+    </div>
+    
+  </div> 
+</main>
+
+<footer>
+  <div class="foot"> &copy; 2021 | Joydelyn R. Baes | Philippines | <a href="https://www.byui.edu/online">BYUI Online Learning</a></div>
+  <div>Last updated:<span id="date"></span></div>
+</footer>
+<script src="../lesson_10/js/toggleMenu.js"></script>
+<script src="../lesson_10/js/java.js"></script>
+<script src="../lesson_10/js/windchill.js"></script>
+
+
+</body>
+</html> 

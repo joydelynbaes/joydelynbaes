@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>Weathering Site | Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../lesson_8/css/small.css">
+  <link rel="stylesheet" href="../lesson_8/css/medium.css">
+  <link rel="stylesheet" href="../lesson_8/css/large.css"/>
+  <link rel="stylesheet" href="../lesson_8/css/normalize.css"/>
+  <link rel="shortcut icon" href="../lesson_8/img/favicon.ico">
+</head>
+
+<body>
+<header>
+  <img class="logo" src="../lesson_8/img/icon.png" alt="icon">
+  <section class="heading">
+    <h1>Weathering Daily</h1>
+    <div class="with">for everydays weather update</div>
+  </section>
+</header>
+
+<nav class="clearfix"> 
+  <button onclick="toggleMenu()">&#9776;</button>
+  <ul id="menu" class="hide">
+    <li><a href="../lesson_11/index.html" >Home</a></li>
+    <li><a href="../lesson_11/preston.html" >Preston</a></li>
+    <li><a href="../lesson_11/stormcenter.html" class="active">Storm Center</a></li>
+    <li><a href="#">Fish Haven</a></li>
+    <li><a href="../lesson_11/gallery.html">Gallery</a></li>
+    <li><a href="../lesson_11/home-wireframes.html">Wireframe</a></li>
+    
+  </ul>
+</nav>
+
+<main class="clearfix">
+  <h2 class="pre">Preston, Idaho</h2>
+
+  <form method="get" action="thanks.html">
+  <fieldset>
+    <legend>Information</legend>
+    <label>First Name: <input type="text" name="firstName" pattern="[A-Za-z]{5,}" required></label>
+    <label>Last Name: <input type="text" name="lastName" pattern="[A-Za-z]{4,}" required></label>
+    <label>Email*: <input type="email" name="eMail" placeholder="name@mail.com" required></label>
+    <label>Phone: <input type="tel" name="phone" required></label>
+    <label>Zip Code: <input type="number" name="zip" required></label>
+    <label>Storm Date: <input type="date" name="stormDate"></label>
+    <label>Storm Type: <select list="datalist" name="stormType">
+    <datalist>
+      <option>Select Type</option>
+      <option>Flash Flood</option>
+      <option>Hail</option>
+      <option>Hurricane</option>
+      <option>Thunderstorm</option>
+      <option>Tornado</option>
+    </label>
+    </datalist>
+
+    <label class="flexly" for="rating">Rating:&nbsp;&nbsp;&nbsp; <input type="range" id="rating" value="5" min="1" max="10" step="1"
+      list="tickmarksk" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue">5</span></label>
+    
+      <datalist id="tickmarks">
+      <option value="0">
+      <option value="1">
+      <option value="2">
+      <option value="3">
+      <option value="4">
+      <option value="5">
+      <option value="6">
+      <option value="7">
+      <option value="8">
+      <option value="9">
+      <option value="10">
+      </datalist>
+
+    <label>Storm Region <select name="region">
+      <option>Select Region</option>
+      <option value="preston">Preston</option>
+      <option value="">Soda Spring</option>
+      <option value="">Fish Haven</option>
+    </select></label>
+
+    <label>User in Danger Level</label>
+    <label><input type="radio" name="dangerLevel" value="Yes">Yes</label>
+    <label><input type="radio" name="dangerLevel" value="Maybe">Maybe</label>
+    <label><input type="radio" name="dangerLevel" value="No">No</label>
+    <label><input type="textarea" name="comments" rows="4" cols="40"></label>
+  </fieldset>
+
+  <input type="submit" value="Submit Form" class="submit">
+  </form>
+</main>
+
+<footer>
+  <div class="foot"> &copy; 2021 | Joydelyn R. Baes | Philippines | <a href="https://www.byui.edu/online">BYUI Online Learning</a></div>
+  <div>Last updated:<span id="date"></span></div>
+</footer>
+<script src="../lesson_8/js/toggleMenu.js"></script>
+<script src="../lesson_8/js/java.js"></script>
+<script src="../lesson_8/js/windchill.js"></script>
+
+
+</body>
+</html> 
