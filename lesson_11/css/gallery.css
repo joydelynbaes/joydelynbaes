@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@300&display=swap');
+
+body{
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color:Black;
+    }
+
+    img{
+        width:100%;
+        border-radius: 10px;
+    }
+    
+    .logo {
+        width:140px;
+    
+    }
+    header{
+        background-color:#ffdc15;
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .heading{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .heading h1 {
+        font-size: 1.3rem;
+        margin-bottom: 0;
+    }
+    
+    .with {
+        font-style:italic;
+        letter-spacing: 1pt;
+        color: #6e6d00;
+        margin: 0 10px;
+        font-size: .8rem;
+    }
+    nav{
+        background-color: #3c3f3f;
+        display: block;
+        text-align: center;
+    }
+    
+    nav ul{ 
+        list-style: none;
+        margin:0;
+        padding:0;
+    }
+    
+    nav ul li a{
+        color:white;
+        display:block;
+        text-decoration: none;
+        padding:4px; 
+        list-style: none;  
+    }
+    
+    nav ul.hide {
+        display:none;
+    }
+    
+    nav button{
+       border:none;
+       font-size: 30px;
+       background-color: transparent;
+       color: #fdc15f;
+    }
+    
+    nav ul li a:hover{
+        color:#000;
+        background-color: #ffdc15;
+    }
+    .active{
+        padding:0;
+        margin:0;
+        background-color:#ffdc15;
+        
+    
+    }
+    .pre{
+        text-align: center;
+        color:#000;
+        margin:20px;
+    }
+    
+    .clearfix p{
+        display: grid;
+        grid-template-rows: text image;
+    
+    }
+    
+    .container figure{
+        /* grid-template-columns: 1fr; */
+        margin:10px;
+
+    }
+    figcaption{
+        text-align: center;
+        padding:10px;
+       background-color: transparent;
+    }
+
+    figure{
+        box-shadow: 0 0 10px black;
+        margin:0 auto;
+        display:grid;
+         border-radius: 10px;
+         background-color: transparent;
+        }
+    
+
+    figure:hover{
+        box-shadow: 0 0 50px yellow;
+    }
+
+    img{
+        align-items: center;
+        display:block;
+        margin:0 auto;
+         
+    }
+    img[data-src]{
+        filter: blur(0.2em);
+    }
+    img{
+        filter:blur(0em);
+        transition: filter 5s;
+    }
+    footer {
+        height: 55px;
+        background-color:#ffdc15;
+        padding: 1em;
+        text-align:center;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-top: 20px;
+    
+      }
+    
+    

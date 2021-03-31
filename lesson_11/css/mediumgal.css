@@ -1,0 +1,145 @@
+
+@media only screen and (min-width: 35rem) {
+
+    nav button{
+        display:none;
+    }
+    nav ul{
+        text-align: center;
+        color:white;
+    }
+
+    nav ul li a{
+    float:left;
+    padding: .8rem 1rem;
+    margin-left: 50px;
+    }
+
+    nav ul li a:hover{
+    color:#000;
+    background-color: #ffdc15;
+}
+
+    .active{
+    padding: .8rem 1rem;
+    margin-left: 50px;
+    }
+
+    nav ul.hide {
+        display:block;
+    }
+
+    .mainImg {
+        width:100%;
+        
+    }
+
+    p{
+        margin: 0;
+        font-size: 1rem;
+        
+    }
+    h2{
+        margin: 0;
+        font-size: 1.5em;
+
+        
+    }
+    
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+    .container figure{
+        margin:10px;
+    }
+
+    .stats {
+    position: absolute;
+    top:25px;
+    background: rgba(255, 252, 72, 0.7);
+    font-weight: bolder;
+    }
+
+    .sum{
+        color:rgb(75, 88, 0);
+        font-weight: bold;
+    }
+
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .clearfix p{
+        display: block;
+    
+    }
+
+    .fiveDay{
+        margin-bottom:10%;
+        text-align: center;
+        display:block;
+    }
+    .fiveDay li{
+        text-decoration: none;
+        float:left;
+        display:block;
+        padding:1px; 
+        list-style: none;
+        text-align: center;
+        margin-left:50px;
+    }
+    
+    .fiveDay img{
+    float:left;
+    width: 50px;
+    margin-top:10px;
+    
+    }
+
+    .article h2{
+        text-align: center;
+        display: block;
+    }
+    .artImg{
+        float:right;
+        margin:10px;
+        width: 30%;
+        
+    }
+        }
+        img{
+        width:100%;
+    }
+  
+  @media only screen and (min-width: 600px) {
+    section{
+      grid-template-rows: auto;
+      grid-template-columns: auto auto;
+    }
+    .map{
+      width: 50%;
+      float:left;
+    }
+    .contacts, .contacts p{
+      margin-top: 0;
+      
+    }
+    footer {
+        height: 55px;
+        background-color:#ffdc15;
+        padding: 1em 2em;
+        text-align:center;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-top: 150px;
+    
+      }
+      .socialMedia{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width:20%;
+      }
+      
+    
+  } 
