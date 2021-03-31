@@ -88,26 +88,26 @@ display: none;
 
 nav{
     background-color: #3c3f3f;
-    margin:0;
-    max-width: 100%;
+    display: block;
+    text-align: center;
 }
-
 
 nav ul{ 
     list-style: none;
-    text-align: center;
-    margin:0 0 0 auto ;
+    margin:0;
     padding:0;
-
 }
 
 nav ul li a{
     color:white;
     display:block;
     text-decoration: none;
-    padding:1px; 
-    list-style: none;
-    
+    padding:4px; 
+    list-style: none;  
+}
+
+nav ul.hide {
+    display:none;
 }
 
 nav button{
@@ -117,14 +117,9 @@ nav button{
    color: #fdc15f;
 }
 
-nav ul.hide {
-    display:none;
-}
-
 nav ul li a:hover{
     color:#000;
     background-color: #ffdc15;
-
 }
 
 
@@ -294,17 +289,14 @@ label.top input,
     font-size: 125%;
 }}
   
-  .map{
-    margin: auto;
-    width: 100%;
-    grid-row: map;
-  }
   .contactInfo{
    margin-top: 50px;
    padding: 50px;
-    text-align: left;
-    margin-right: 100px;
-    
+   margin-right: 100px;
+   
+  }
+  .contacts{
+
   }
    
   .socialMedia{

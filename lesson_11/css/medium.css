@@ -130,6 +130,13 @@
       
       
     }
+    
+    .socialMedia{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width:20%;
+      }
+
     footer {
         height: 55px;
         background-color:#ffdc15;
@@ -139,11 +146,7 @@
         margin-top: 80px;
     
       }
-      .socialMedia{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        width:20%;
-      }
+      
       
           
       

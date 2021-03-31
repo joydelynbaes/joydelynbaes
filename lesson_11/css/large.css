@@ -19,6 +19,12 @@ h2{
     font-size: 2em;
 }
 
+main{
+    width: 80%;
+    background-color: rgb(255, 249, 224);
+    margin: auto;
+    
+}
 .stats {
 
     margin-top:50px;
@@ -26,41 +32,67 @@ h2{
     
     }
     .fiveDay{
-        margin-bottom:20%;
+       
         text-align: center;
         display:block;
+        margin-left: 110px;
     }
     .fiveDay li{
         text-decoration: none;
-        float:left;
         display:block;
         padding:1px; 
         list-style: none;
         text-align: center;
         margin-left:50px;
     }
-    .fiveDay img{
-    float:left;
+
+    table p{
+        font-size: 16px;
+        margin: 15px;
+    }
+
     
+
+    table.weather img{
+        width: 50%;
+        margin:10px 0 10px 10px;
+        padding:10px;
+    }
+    table.weather{
+        background-color: #ffee00;
     }
     img{
         width:100%;
+        padding:0;
+    }
+
+    
+    .contactInfo{
+        background-color: #333232;
+        color:white;
+        height:220px;
+        padding: 20px;
+    }
+
+    .contacts{
+        margin-left: 350px;
+        margin-top: 20px;
+        text-align: center;
     }
     
-    footer {
-        height: 55px;
-        background-color:#ffdc15;
-        padding: 1em 2em;
-        text-align:center;
-        font-family: 'Noto Sans JP', sans-serif;
-      margin-top: 0;
-    
-      }
-      .socialMedia{
+    iframe{
+        margin-top: 30px;
+        margin-left: 20px;
+        float: left;
+    }
+    .socialMedia{
         display: grid;
         grid-template-columns: auto auto auto;
         width:15%;
+        margin-left: 520px;
       }
+    
+      
       .cards{
           display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -80,6 +112,17 @@ h2{
         display: grid;
        
     }
+    
+    footer {
+        height: 55px;
+        background-color:#ffdc15;
+        padding: 1em 2em;
+        text-align:center;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-top: 103px;
+        width: 100%;
+    
+      }
     
       
 }
