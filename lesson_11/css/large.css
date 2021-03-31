@@ -35,20 +35,27 @@ main{
        
         text-align: center;
         display:block;
-        margin-left: 110px;
+        
     }
+
     .fiveDay li{
         text-decoration: none;
         display:block;
         padding:1px; 
         list-style: none;
         text-align: center;
-        margin-left:50px;
+       
     }
 
     table p{
         font-size: 16px;
         margin: 15px;
+    }
+
+    table{
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     
@@ -65,7 +72,16 @@ main{
         width:100%;
         padding:0;
     }
-
+    .events{
+        background-color: #ffee00;
+        color:rgb(0, 0, 0);
+        height:150px;
+        padding: 20px;
+        width: 50%;
+        box-shadow:3px 3px 6px #000;
+        margin: auto;
+        margin-bottom: 20px;
+    }
     
     .contactInfo{
         background-color: #333232;
@@ -83,17 +99,39 @@ main{
     
     iframe{
         margin-top: 30px;
-        margin-left: 20px;
+        margin-left: 90px;
         float: left;
     }
     .socialMedia{
         display: grid;
         grid-template-columns: auto auto auto;
         width:15%;
-        margin-left: 520px;
+        margin-left: 690px;
       }
-    
-      
+      .contactInfoFish{
+        background-color: #333232;
+        color:white;
+        height:220px;
+        padding: 20px;
+        width: 100%;
+      }
+      .contactsFish{
+        margin-left: 350px;
+        margin-top: 20px;
+        text-align: center;
+      }
+      .iframeFish{
+        margin-top: 30px;
+        margin-left: 90px;
+        float: left;
+      }
+      .socialMediaFish{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width:15%;
+        margin-left: 690px;
+      }
+
       .cards{
           display: grid;
         grid-template-columns: 1fr 1fr 1fr;
