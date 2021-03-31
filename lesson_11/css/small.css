@@ -287,16 +287,13 @@ label.top input,
     margin: auto;
     padding: 4rem;
     font-size: 125%;
-}}
+}
   
   .contactInfo{
    margin-top: 50px;
    padding: 50px;
    margin-right: 100px;
    
-  }
-  .contacts{
-
   }
    
   .socialMedia{
@@ -318,4 +315,3 @@ footer {
  
 
 
-}
