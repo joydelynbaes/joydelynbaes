@@ -194,6 +194,105 @@ nav ul li a:hover{
     margin-top: 20px;
     
 }
+form fieldset {
+    max-width: 25rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin: auto auto 2rem;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+legend {
+    display: none;
+}
+
+form fieldset label {
+    display: block;
+}
+
+
+form label.top, 
+form label.sbs,
+form div.top {
+    padding-top: 20px;
+}
+
+
+label.top input,
+#storm-type,
+#textarea, #region {
+    display: block;
+    width: 95%;
+    height: 44px;
+    border-radius: 5px;
+    border: 2px solid #ffe44b;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#region {
+    width: 99.7%;
+    height: 50px;
+}
+
+.top #date {
+    width: 95%;
+    height: 46px;
+}
+
+.rating { 
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+}
+.rating span {
+    padding-left: 1rem;
+}
+
+
+}
+.user{
+    margin-top: 10px;
+}
+
+.radio { 
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+
+#textarea {
+    height: 70px;
+}
+
+
+.submitBtn {
+    margin: 20px auto 30px;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333232;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.submitBtn:hover {
+    box-shadow:3px 3px 6px #000;
+    cursor: pointer;
+    background-color: #ffe44b;
+    color: black;
+}
+
+
+ p.thank {
+    margin: auto;
+    padding: 4rem;
+    font-size: 125%;
+}}
   
   .map{
     margin: auto;
@@ -225,4 +324,6 @@ footer {
   }
 
  
+
+
 }
