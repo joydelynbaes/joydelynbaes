@@ -17,7 +17,7 @@ fetch(requestURL)
         let website = document.createElement('p');
         let image = document.createElement('img');
         
-        name.textContent = 'Nme: ' +business[i].name;
+        name.textContent = 'Name: ' +business[i].name;
         address.textContent ='Address: ' + business[i].address;
         phone.textContent = 'Phone: ' + business[i].phone;
         qoute.textContent = 'Qoute: ' + business[i].qoute;
