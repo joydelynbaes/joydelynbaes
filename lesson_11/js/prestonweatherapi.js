@@ -1,3 +1,7 @@
+function myFunction() {
+  alert("Hello\nHow are you?");
+}
+
 const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=2172797&appid=732b57481f8f22a4ed96a8fcb2b926b8&units=imperial";
 
 fetch(apiURL)
@@ -14,7 +18,7 @@ fetch(apiURL)
     const humidity = document.querySelector("#humidity");
     humidity.textContent = jsObject.main.humidity;
 
-    const speed = document.querySelector("#speed");
+    const speed = document.querySelector("#condition");
     speed.textContent = jsObject.wind.speed;
 });
     

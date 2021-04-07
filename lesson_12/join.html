@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <title>Course Portal | Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="/lesson_12/css/small.css"/>
+  <link rel="stylesheet" href="css/medium.css"/>
+  <link rel="stylesheet" href="css/large.css"/>
+
+
+
+  <script src="/lesson_12/js/currentweather.js"></script>
+  <script src="/lesson_12/js/alert.js"></script>
+  <script src="/lesson_12/js/forecast.js"></script>
+</head>
+
+<body>
+  <header >
+    <div class="conatiner">
+    <div id="brand">
+      <img src="/lesson_12/img/logo.png">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="city.html">City</a></li>
+        <li><a href="join.html" class="active">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+  <main class="clearfix">
+    <h2 class="pre">Join Today!</h2>
+  
+    <form method="get" action="thanks.html">
+    <fieldset>
+      <legend class="title">Fill Up Information</legend>
+      <label class="top" for="">First Name: <input type="text" name="firstName" pattern="[A-Za-z]{5,}" required></label>
+      <label class="top" for="">Last Name: <input type="text" name="lastName" pattern="[A-Za-z]{4,}" required></label>
+      <label class="top" for="">Title: <input type="text" name="title"></label>
+      <label class="top" for="">Email*: <input type="email" name="email" placeholder="name@mail.com" required></label>
+      <label class="top" for="">Phone: <input type="tel" name="phone" required></label>
+      <label class="top" for="">Business Name: <input type="name" name="name" pattern="[A-Za-z]{5,}" required></label>
+      <label class="top" for="">Business website:<input type="url" id="homepage" name="homepage"></label>
+      
+      <label class="user">Membership Level</label>
+      <div class="radio">
+      <label><input type="radio" name="fees" value="nonProfit">Non-profit ($100)</label>
+      <label><input type="radio" name="fees" value="bronze">Bronze ($200)</label>
+      <label><input type="radio" name="fees" value="silver">Silver ($400)</label>
+      <label><input type="radio" name="fees" value="gold">Gold ($1000)</label>
+    
+    
+  <input type="submit" value="Submit Form" class="submitBtn">
+    </fieldset>
+  
+    </form>
+  </main>
+  
+  <section>
+    
+  </section>
+
+
+
+<footer>
+  <p> &copy; 2021 | Joydelyn R. Baes | Philippines | <a href="https://www.byui.edu/online">BYUI Online Learning</a> </p>
+  <div> Last Updated: <span id="date"></span></div>
+</footer>
+<script src="js/Java.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>WebFont.load({google:{families:['Open Sans Condensed', sans-serif]}
+});</script>
+</body>
+</html> 

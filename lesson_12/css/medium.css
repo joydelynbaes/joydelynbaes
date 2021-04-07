@@ -1,0 +1,48 @@
+@media only screen and (min-width: 48rem) {
+/*Stats*/
+
+.stats{
+    left:30px;
+    padding: 15px 10px;    
+    position: absolute;
+    top: 150px;    
+}
+
+
+/*TABLE*/
+
+
+table{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table.weather img{
+    width: 50%;
+    margin:10px 0 10px 10px;
+    padding:10px;
+}
+
+/*BOXES*/
+
+#boxes .box{
+    float:left;
+    width: 27%;   
+}
+
+/*FORM*/
+
+.form{
+
+    font-size: 20px;
+}
+
+
+}
+
+
+#76aa8c green 
+#d09b2f yellow
+#140f62 blue 
+#545353 gray

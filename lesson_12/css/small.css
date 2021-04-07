@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Special+Elite&display=swap');
+@media only screen and (min-width: 20rem) {
+
+/*RELATED ELEMENTS*/
+body{
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    padding:0;
+    margin:0;
+    background-color:#ffffff ;
+}
+.container{
+   
+    margin:auto;
+    overflow:hidden;
+}
+
+img{
+    width: 100%;
+}
+
+h1, h2, h3, h4 ,h5, h6{
+    font-family: 'Special Elite', cursive;
+}
+
+/*HEADER*/
+header{
+    background-color:#76aa8c;
+    color: black;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:#d09b2f 3px solid;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #brand {
+    float:left;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+header nav{
+    float:right;
+    margin-top: 10px;
+    font-family: 'Special Elite', cursive;
+}
+
+.active{
+    padding:0;
+    margin:0;
+    color:#d09b2f;
+    
+}
+
+/*Stats*/
+
+.stats{
+    text-align: center;
+    background: rgb(208, 155, 47, 0.7);
+    border: 1px solid #3c3f3f;
+    box-shadow: 0 0 30px #3c3f3f;
+    color:#000000;
+    font-size: 20px;
+}
+
+.stats p{
+    margin:5px;
+}
+
+.stats h2{
+    margin: 5px;
+}
+
+/*TABLE*/
+#dayofWeek1,
+#dayofWeek2,
+#dayofWeek3{
+    font-size: 25px;
+}
+#forecast1,
+#forecast2,
+#forecast3{
+    font-size: 25px;
+}
+table{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table.weather{
+    background-color: rgb(208, 155, 47);
+}
+
+/*MAIN*/
+main{
+    padding:25px 100px 25px 100px;
+}
+main h2{
+
+    text-align: center;
+    background-color: #d09b2f;
+    height: 40px;
+    padding-top: 15px;
+}
+main .eco{
+    margin-left: 30px;
+}
+
+
+/*BOXES Index*/
+#boxes h3{
+    text-align: center;
+    background-color:#d09b2f ;
+    height:35px;
+   padding-top: 15px;
+}
+
+#boxes{
+margin-top: 29px;
+
+
+}
+
+#boxes .box{
+    padding:22px; 
+}
+
+#boxes .box img{
+    width:50%;
+    margin-left: 60px;
+}
+
+#boxes .box1 img{
+    width:50%;
+    margin-left: 60px;
+}
+
+/*BOXES City*/
+#boxesC h3{
+    text-align: center;
+    background-color:#d09b2f ;
+   padding-top: 15px;
+}
+
+#boxesC{
+margin-top: 29px;
+}
+
+#boxesC .boxC{
+    padding:22px; 
+}
+
+#boxesC .boxC img{
+    width:70%;
+    margin-left: 60px;
+}
+
+#boxesC .boxC1 img{
+    width:70%;
+    margin-left: 60px;
+}
+
+#boxesC .city{
+    padding: 15px 10px 25px 10px;
+}
+/*FORM*/
+
+.form{
+    padding: 17px;
+    background-color: #d09b2f;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.form a{
+    
+    background: #545353;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid;
+    display: block;
+    width:20%;
+}
+
+.button-1{
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align:center;
+    margin-top: 30px;
+    margin-left: 35%;
+}
+
+/*EVENT*/
+.events h3{
+    text-align: center;
+}
+
+/*Join Form*/
+
+form fieldset {
+    max-width: 25rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin: auto auto 2rem;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+legend {
+    display: none;
+}
+
+form fieldset label {
+    display: block;
+}
+
+form label.top, 
+form label.sbs,
+form div.top {
+    padding-top: 20px;
+}
+
+label.top input,
+#storm-type {
+    display: block;
+    width: 95%;
+    height: 44px;
+    border-radius: 5px;
+    border: 2px solid #140f62;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.user{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.radio { 
+    font-size: 15px;
+    padding-top: 5px;
+}
+.submitBtn {
+    margin: 20px auto 30px;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333232;
+    border: transparent;
+    border-radius: 5px;
+}
+.thanks{
+    text-align: center;
+    font-size: 30px ;
+    line-height: 1rem;
+}
+
+.heads{
+    font-size: 50px;
+}
+/*FOOTER*/
+footer{
+    padding:20px;
+    margin-top: 50%;
+    color: black;
+    text-align: center;
+    background-color: #76aa8c;
+}
+}
+
+#76aa8c green 
+#d09b2f yellow
+#140f62 blue 
+#545353 gray

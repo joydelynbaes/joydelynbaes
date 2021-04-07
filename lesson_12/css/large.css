@@ -1,0 +1,95 @@
+@media only screen and (min-width: 64rem) {
+
+/*Stats*/
+.stats{
+    left:30px;
+    padding: 15px 10px;   
+    position: absolute;
+    top: 150px;     
+}
+
+
+/*TABLE*/
+
+table{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+table.weather img{
+   
+    margin: 0;
+    padding:0 70px;
+}
+
+
+/*BOXES Index*/
+#boxes .container{
+    margin-left: 90px;
+}
+
+#boxes .box{
+    float:left;
+    width: 27%;   
+    
+}
+
+#boxes .box1{
+    float:left;
+    width: 27%;   
+    margin-top: 48px;
+    
+}
+
+/*BOXES City*/
+#boxesC .container{
+    margin-left: 90px;
+}
+
+#boxesC .boxC{
+    float:left;
+    width: 27%;   
+    
+}
+
+#boxesC .boxC1{
+    float:left;
+    width: 27%;   
+    margin-top: 20px;
+    
+}
+#boxesC .city{
+    padding: 15px 10px 15px 10px;
+
+}
+#boxesC h3{
+    padding: 25px;
+}
+
+
+
+/*FORM*/
+.form{
+
+    font-size: 20px;
+    clear: right;
+    display: block;
+   
+}
+
+.form h3{
+    margin-bottom: -10px;
+}
+
+
+
+
+}
+
+
+#76aa8c green 
+#d09b2f yellow
+#140f62 blue 
+#545353 gray

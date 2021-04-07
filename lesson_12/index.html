@@ -5,11 +5,129 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/small.css"/>
+  <link rel="stylesheet" href="/lesson_12/css/small.css"/>
   <link rel="stylesheet" href="css/medium.css"/>
+  <link rel="stylesheet" href="css/large.css"/>
+
+
+
+  <script src="/lesson_12/js/currentweather.js"></script>
+  <script src="/lesson_12/js/alert.js"></script>
+  <script src="/lesson_12/js/forecast.js"></script>
 </head>
 
 <body>
+  <header >
+    <div class="conatiner">
+    <div id="brand">
+      <img src="/lesson_12/img/logo.png">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="city.html">City</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+  <div>
+    <section id="banner">
+      <picture>
+        <source srcset="../lesson_12/img/0bannerSmall.jpg" media="(max-width:425px)">
+        <source srcset="../lesson_12/img/0bannerMedium.jpg" media="(max-width:768px)">
+        <source srcset="../lesson_12/img/0banner.jpg" media="(max-width:1440px)">
+    <img src="../lesson_12/img/0banner.jpg" alt="icon">
+          
+        </picture>
+    </section>
+
+    <section class="stats" >
+      <h2>Weather Summary</h2>
+      <p>Weather: <span id="weather"></span></p>
+      <p>Tempreture: <span id="temp"></span> &#176;F </p>
+      <p>Humidity: <span id="humidity"></span></p>
+      
+    </section>
+  </div>
+
+  <table class="weather" border="1">
+    <tr>
+      <th><p><span id="dayofWeek1"></span></p></th>
+      <th><p><span id="dayofWeek2"></span></p></th>
+      <th><p><span id="dayofWeek3"></span></p></th>
+    </tr>
+<tr>
+    <th><p><span id="forecast1"></span>&deg; F</p></th>
+    <th><p><span id="forecast2"></span>&deg; F</p></th>
+    <th><p><span id="forecast3"></span>&deg; F</p></th>
+</tr>
+   <tr>
+      <td><p><span id="image1"></span>&nbsp;<img src="" alt="" id="icon1"></p></td>
+      <td><p><span id="image2"></span>&nbsp;<img src="" alt="" id="icon2"></p></td>
+      <td><p><span id="image3"></span>&nbsp;<img src="" alt="" id="icon3"></p></td>
+      
+    </tr>
+  </table>
+
+  <section id="boxes">
+    <h3>Featured Businesses</h3>
+    <div class="container">
+      <div class="box">
+        <img src="/lesson_12/img/1oro.png">
+        <h3>Oro Formms Trading</h3>
+        <!-- <p>Address: Blk 8 Lot 20 9th Street, Pacita Complex I, San Vicente, San Pedro, Laguna, Philippines</p>
+        <p>Phone Number: +63288475138</p> -->
+        <p>We, at Oro Formms Trading, have been providing high quality garments to our valued clients from diverse professions.</p>
+      </div>
+
+      <div class="box">
+        <img src="/lesson_12/img/2ads.jpg">
+        <h3>Melbecah advertising services</h3>
+        <!-- <p>Address:block 16 lot 2 phase 3 the glens @ parks spring san antonio san pedro laguna , San Pedro, Laguna, Philippines</p>
+        <p>Phone Number: +639154484814</p> -->
+        <p>TAKE A LEAD THROUGH INDOOR AND OUTDOOR ADVERTISEMENT the finest printing qaulity to serve the BEST for your media advertising needs ...</p>
+      </div>
+
+      <div class="box1">
+        <img src="/lesson_12/img/3travent.jpg">
+        <h3>Travel Ventours</h3>
+        <!-- <p>Address: #3 Blk 3 Lot 13 phase 1-b Santa Monica street, San Vicente Pacita Complex, San Pedro, Laguna, Philippines</p>
+        <p>Phone Number: +639159576550</p> -->
+        <p>We our specialized in organizing adventure tour packages that involve hiking, trekking, caving, spelunking and camping. </p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="form">
+    <h3>Are You Business Owner or Profesional?</h3>
+    <p>Finding professionals is easy with Us. Search our website to instantly connect with Business Owners, Entrepreneurs, and Professionals. A powerful tool for attracting more clients, better Search Engine Optimization and a powerful tool to communicate, network and promote ones business agenda. <a href="forms.html" class="button-1">Join Today!</a></p>
+  </div>
+
+  <section class="events">
+    <h3>UPCOMING EVENTS</h3>
+      <div class="event">
+        <img src="">
+        <p></p>
+      </div>
+
+      <div class="event">
+        <img src="">
+        <p></p>
+      </div>
+
+      <div class="event">
+        <img src="">
+        <p></p>
+      </div>
+
+  </section>
+  
+
 
 
 <footer>
@@ -18,7 +136,7 @@
 </footer>
 <script src="js/Java.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script>WebFont.load({google:{families:['Homemade Apple']}
+<script>WebFont.load({google:{families:['Open Sans Condensed', sans-serif]}
 });</script>
 </body>
 </html> 

@@ -1,0 +1,61 @@
+{
+    "business": [
+      {
+        "name": "ARO Virtual Assistance Services",
+        "address": "Blk 10 Lot 15 Thailand St Greatland Vill, San Pedro, Laguna",
+        "phone":"+639082325359",
+        "qoute": "Business consultancy that provides #virtualassistance to clients such as #SEO #Social Media Management #Bookkeeping #Blogging with a goal of adding value to the business.",
+        "website":"https://annelibethfva.wordpress.com/",
+        "imageurl": "aro.png"
+      },
+      {
+        "name": "Boycon Construction-Supply and Trading Corporation",
+        "address": "7 Juan Luna Avenue Chrysanthemum Village, San Pedro, Laguna",
+        "phone":"+639478551717",
+        "qoute": "BOYCON Construction-Supply and Trading Corporation, is a fresh but a dynamic company that delivers the demands of construction, electrical, safety and industrial sectors in the Philippines. ",
+        "website":"http://www.boycon.com",
+        "imageurl": "boycon.jpg"
+      },
+      {
+        "name": "JHome Construction Trading",
+        "address": "Saint Agnes St., Pacita Complex 2, San Pedro, Laguna, Philippines",
+        "phone":"+639478551717",
+        "qoute": "JHome Construction Trading is a freelance-contractor that have been manufacturing and installing affordable, high-quality, energy efficient, and secure uPVC windows & doors for homeowners across the Philippines since 2009.",
+        "website":"http://www.facebook.com/jhomeconst",
+         "imageurl": "jhome.jpg"
+      },
+      {
+        "name": "Soundluxe Lights and Sounds Photo Booth",
+        "address": "Futura homes, San Pedro, Laguna, Philippines",
+        "phone":"+639278553789",
+        "qoute": "SoundLuxe Lights & Sounds and PhotoBooth provider that can provide quality and at the same time versatile when it comes to the need of our clients.",
+        "website":"http://www.facebook.com/soundluxels",
+         "imageurl": "soundluxe.png"
+      },
+      {
+        "name": "Lorenzo",
+        "address": "",
+        "phone":"",
+        "qoute": "",
+        "website":"",
+         "imageurl": ""
+      },
+      {
+        "name": "Joseph F.",
+        "address": "",
+        "phone":"",
+        "qoute": "",
+        "website":"",
+         "imageurl": ""
+      },
+      {
+        "name": "Heber J.",
+        "address": "",
+        "phone":"",
+        "qoute": "",
+        "website":"",
+         "imageurl": ""
+      }
+    
+    ]
+  }
