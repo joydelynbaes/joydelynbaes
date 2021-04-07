@@ -1,4 +1,4 @@
-const requestURL = "business.json";
+const requestURL = "../lesson_12/js/business.json";
 
 fetch(requestURL)
   .then(function (response) {
@@ -43,6 +43,6 @@ fetch(requestURL)
 
         document.querySelector('div.cards').appendChild(card);
       }
-    }
+    
 
   });
