@@ -6,10 +6,10 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     //console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const business = jsonObject['card'];
+    const business = jsonObject['cards'];
     for (let i = 0; i < business.length; i++) {
       
-        let card = document.createElement('section');
+        let cards = document.createElement('section');
         let name = document.createElement('p');
         let address = document.createElement('h2');
         let phone = document.createElement('h3');
@@ -17,11 +17,11 @@ fetch(requestURL)
         let website = document.createElement('p');
         let image = document.createElement('img');
         
-        name.textContent = 'Name: ' +business[i].name;
-        address.textContent ='Address: ' + business[i].address;
-        phone.textContent = 'Phone: ' + business[i].phone;
-        qoute.textContent = 'Qoute: ' + business[i].qoute;
-        website.textContent = 'Website: ' + business[i].website;
+        name.textContent = business[i].name;
+        address.textContent =business[i].address;
+        phone.textContent = business[i].phone;
+        qoute.textContent = business[i].qoute;
+        website.textContent = business[i].website;
         if (i == 1) {
             image.setAttribute('src', business[i].imageurl);
         image.setAttribute("alt", business[i].name);
@@ -34,12 +34,12 @@ fetch(requestURL)
         }
 
     
-        card.appendChild(name);
-        card.appendChild(address);
-        card.appendChild(phone);
-        card.appendChild(qoute);
-        card.appendChild(website);
-        card.appendChild(image);
+        cards.appendChild(name);
+        cards.appendChild(address);
+        cards.appendChild(phone);
+        cards.appendChild(qoute);
+        cards.appendChild(website);
+        cards.appendChild(image);
 
         document.querySelector('div.cards').appendChild(card);
       }
