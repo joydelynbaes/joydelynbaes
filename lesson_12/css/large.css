@@ -102,7 +102,40 @@ table.weather img{
 }
 
 /*BOXES Index*/
+#boxes .container{
+    margin-left: 90px;
+}
 
+#boxes .box{
+    float:left;
+    width: 27%;   
+    
+}
+
+#boxes .box1{
+    float:left;
+    width: 27%;   
+    margin-top: 20px;
+    
+}
+
+#boxes .box img{
+    width:70%;
+    margin-left: 60px;
+}
+
+#boxes .box1 img{
+    width:70%;
+    margin-left: 60px;
+}
+
+#boxes .city{
+    padding: 15px 10px 15px 10px;
+
+}
+#boxesC h3{
+    padding-top: 15px;
+}
 /*FORM*/
 .form{
 
@@ -128,11 +161,36 @@ main h2{
    
     line-height: 1rem;
 }
-
+/*Contacts*/
+.contactInfo{
+    background-color: #333232;
+    color:white;
+    height:300px;
+    padding: 20px;
+    width: 100%;
 }
 
+.contacts{
+    margin-left: 350px;
+    margin-top: 20px;
+    text-align: center;
+}
 
-#76aa8c green 
-#d09b2f yellow
-#140f62 blue 
-#545353 gray
+iframe{
+    margin-top: 30px;
+    margin-left: 90px;
+    float: left;
+    
+}
+.soc1,
+   .soc2,
+   .soc3{
+   
+      float: left;
+      width:5%;
+      clear: right;
+      margin:3px;
+    }
+  }
+}
+

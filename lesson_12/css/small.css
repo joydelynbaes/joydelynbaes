@@ -339,17 +339,40 @@ label.top input,
     border: 2px solid #140f62;
     border-radius: 5px;
 }
+/*contacts*/
+.contactInfo{
+   
+    padding: 0 0 50px 0;
+    
+   
+   }
+   iframe{
+    width:270px;
+    height:270px;
+    padding-left: 20px;
+}
+.contacts{
+    
+    text-align: center;
+}
+.socialMedia{
+    margin-left: 90px;
+
+}
+   .soc1,
+   .soc2,
+   .soc3{
+     float: left;
+     width:15%;
+     clear: right;
+     margin:3px;
+   }
 /*FOOTER*/
 footer{
     padding:20px;
-    margin-top: 50%;
     color: black;
     text-align: center;
     background-color: #76aa8c;
 }
 }
 
-#76aa8c green 
-#d09b2f yellow
-#140f62 blue 
-#545353 gray

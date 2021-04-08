@@ -84,18 +84,56 @@ table.weather img{
     float:left;
     width: 27%;   
 }
+#boxes .box1{
+    float:left;
+    width: 27%;   
+    margin-top: 20px;
 
+}
 /*FORM*/
 .form{
 
     font-size: 20px;
 }
 
+/*Contacts*/
+.contactInfo{
+    background-color: #333232;
+    color:white;
+    height:300px;
+    padding: 20px;
+    width: 100%;
+}
 
+.contacts{
+    margin-left: 350px;
+    margin-top: 20px;
+    text-align: center;
+    clear: right;
+}
+
+iframe{
+    margin-top: 30px;
+    margin-left: 90px;
+    float: left;
+    
+}
+.socialMedia{
+    margin-left: 390px;
+
+}
+.soc1,
+   .soc2,
+   .soc3{
+    
+      float: left;
+      width:10%;
+      clear: right;
+      margin:3px;
+    }
+}
+
+    
 }
 
 
-#76aa8c green 
-#d09b2f yellow
-#140f62 blue 
-#545353 gray
