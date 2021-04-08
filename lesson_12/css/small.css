@@ -340,6 +340,10 @@ label.top input,
     border-radius: 5px;
 }
 /*contacts*/
+
+.board{
+    text-align: center;
+}
 .contactInfo{
    
     padding: 0 0 50px 0;
