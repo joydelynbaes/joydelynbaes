@@ -231,7 +231,20 @@ margin-top: 29px;
 }
 
 /*EVENT*/
-.events h3{
+.events{
+    text-align: center;
+    background-color: #d09b2f;
+    padding:10px;
+    font-size: 20px;
+    width: 50%;
+    margin:auto;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.event{
     text-align: center;
 }
 
