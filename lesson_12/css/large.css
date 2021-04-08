@@ -182,12 +182,12 @@ iframe{
     float: left;
     
 }
-.soc1,
-   .soc2,
-   .soc3{
+.soc1 img,
+   .soc2 img,
+   .soc3 img{
    
       float: left;
-      width:5%;
+      width:90%;
       clear: right;
       margin:3px;
     }
