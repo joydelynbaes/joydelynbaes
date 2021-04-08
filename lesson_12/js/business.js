@@ -1,4 +1,4 @@
-const requestURL = "../lesson_12/js/business.json";
+const requestURL = "https://curious-discreet-carp.glitch.me/business.json";
 
 fetch(requestURL)
   .then(function (response) {
